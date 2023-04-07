@@ -1,0 +1,79 @@
+@media (max-width: 767px) {
+  /* banner */
+  .banner-text h1 {
+    font-size: 32px;
+  }
+  .banner-text span {
+    margin-left: 0;
+  }
+  /* navbar */
+  .nav-bar .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .nav-bar div {
+    display: none;
+  }
+  .nav-bar a {
+    border: none;
+    padding: 16px 0;
+  }
+  /* grey */
+  ul {
+    padding-left: 0;
+  }
+  .bg-grey {
+    grid-template-columns: 1fr;
+  }
+  .grey-title {
+    padding-bottom: 28px;
+  }
+  .grey-target {
+    padding: 75px 40px 35px 40px;
+  }
+  .grey-info {
+    padding: 75px 40px 35px 40px;
+  }
+
+  /* job section */
+  .job-info .container {
+    width: 100%;
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  /* certificate */
+  .certificate-award {
+    grid-template-columns: 1fr;
+  }
+  .certificate {
+    justify-self: center;
+  }
+
+  .border-left::before {
+    content: "";
+    display: block;
+    border-left: none;
+
+    position: absolute;
+  }
+  /* project */
+  .projects {
+    padding: 30px 20px;
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  .project-info {
+    padding: 16px 24px 8px 24px;
+    text-align: center;
+    height: fit-content;
+    grid-template-columns: repeat(5, 60px);
+  }
+  .project-info i {
+    text-align: right;
+  }
+  /* footer */
+  .footer-list i {
+    font-size: 200%;
+  }
+}

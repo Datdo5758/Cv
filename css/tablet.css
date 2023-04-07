@@ -1,0 +1,72 @@
+@media (max-width: 992px) {
+  /* banner */
+  .banner-text h1 {
+    font-size: 32px;
+  }
+  .banner-text span {
+    margin-left: 0;
+  }
+  /* navbar */
+  .avatar {
+    display: none;
+  }
+  /* grey */
+  .grey-title {
+    padding-bottom: 28px;
+  }
+  .grey-target {
+    padding: 75px 40px 35px 40px;
+  }
+  .grey-info {
+    padding: 75px 40px 35px 40px;
+  }
+  /* job section */
+  .job-info .container {
+    width: 100%;
+    grid-template-columns: 50% 50%;
+  }
+
+  /* chứng chỉ */
+
+  .certificate {
+    grid-template-columns: 1fr;
+    position: relative;
+  }
+  .certificate div {
+    width: 75%;
+  }
+  .certificate:nth-child(3) img {
+    border-left: none;
+    padding-left: 0;
+  }
+  .border-left::before {
+    content: "";
+    display: block;
+    border-left: 1px solid #d6c08d;
+    top: 0;
+    left: -10px;
+    height: 80%;
+    position: absolute;
+  }
+
+  /* project */
+  .projects {
+    padding: 30px 20px;
+  }
+  .projects img {
+    max-width: 100%;
+    height: auto;
+  }
+  .project-info {
+    gap: 8px;
+    padding-left: 8px;
+    padding: 16px 8px 8px 8px;
+    border: 1px solid #f1f1f1;
+    font-size: 12px;
+
+    height: fit-content;
+  }
+  .project-table {
+    font-size: 12px;
+  }
+}
