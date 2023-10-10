@@ -1,3 +1,3 @@
-- Đây là một frontend CV cá nhân
-- Sử dụng Html và Css cơ bản để hoàn thành
-- Trình bày CV cá nhân theo 1 mẫu có sẵn
+- This is a personal CV frontend
+- Use basic Html and Css to get it done
+- Present your personal CV according to an available template
